@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+marquee{
+    font-size: 45px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: red;
+}
+table td img{
+    width: 400px;
+}
+table td a{
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+}
+table{
+    margin-left: 140px;
+}
+table td{
+    border-bottom: 1px dashed;
+}
+@media only screen and (max-width:600px){
+    marquee{
+        font-size: 21px;
+    }
+    table td img{
+        width: 200px;
+    }
+    table td a{
+        font-size: 20px;
+    }
+    table td{
+        border-bottom: 1px dotted;
+    }
+    table{
+        margin-left:0px;
+    }
+}
+@media only screen and (max-width:500px){
+    table td img{
+        width: 140px;
+    }
+
+}

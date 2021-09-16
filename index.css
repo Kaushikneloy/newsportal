@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+marquee{
+    font-size: 40px;
+    margin-top: 100px;
+    color: red;
+}
+.breking img{
+    width: 50%;
+    height: auto;
+    margin-top: 40px;
+    box-shadow: 5px 5px 6px gray;
+}
+.breking{
+    border-bottom: 1px solid gray;
+    margin: 0 15px;
+}
+.breking a{
+    color: red;
+    font-size: 34px;
+    text-decoration: none;
+}
+table td img{
+    width: 400px;
+}
+table td a{
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+}
+table{
+    margin-left: 140px;
+}
+table td{
+    border-bottom: 1px dashed;
+}
+.develop{
+    background: rgba(0,0,0,.8);
+    padding: 20px;
+    color: #fff;
+}
+.social{
+    padding: 10px;
+}
+.social a{
+    padding-left: 20px;
+    font-size: 40px;
+    outline: none;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-instagram{
+color: #c32aa3;
+}
+.fa-twitter{
+color: #1da1f2 ;
+}
+.fa-youtube{
+    color:#bb0000 ;
+}
+.social a:hover{
+    transition: .5s;
+    font-size: 43px;
+}
+.table td img{
+    width: 200px;
+}
+table td a{
+    font-size: 20px;
+}
+table td{
+    border-bottom: 1px dotted;
+}
+table{
+    margin-left:0px;
+}
+@media only screen and (max-width:600px){
+    marquee{
+        font-size: 21px;
+    }
+    .breking img{
+        width: 70%;
+    }
+    .breking a{
+        font-size: 20px;
+    }
+    table td img{
+        width: 170px;
+    }
+    table td a{
+        font-size: 20px;
+    }
+    table td{
+        border-bottom: 1px dotted;
+    }
+    table{
+        margin-left:0px;
+    }
+}
+@media only screen and (max-width:500px){
+    table td img{
+        width: 140px;
+    }
+
+}
